@@ -1,0 +1,149 @@
+/* line 4, ../sass/style.scss */
+body {
+  background: url("../img/ravenna.png");
+  font-family: Helvetica Neue, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 11, ../sass/style.scss */
+div.wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+/* line 14, ../sass/style.scss */
+div.wrap h1 {
+  text-shadow: 1px 1px 1px #999;
+  padding: 4px;
+  text-align: center;
+  color: #ff4d2d;
+}
+/* line 20, ../sass/style.scss */
+div.wrap h2 {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 10px / 10px;
+  border-radius: 10px / 10px;
+  padding: 15px;
+  color: #ffffff;
+  width: 60%;
+  margin: 120px auto 100px;
+}
+/* line 29, ../sass/style.scss */
+div.wrap h3 {
+  text-shadow: 1px 1px 1px #999;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ff4d2d;
+}
+/* line 35, ../sass/style.scss */
+div.wrap p {
+  color: #444;
+  line-height: 24px;
+}
+/* line 39, ../sass/style.scss */
+div.wrap div.demo {
+  background: url("../img/bacon.jpeg");
+  background-position: -300px -200px;
+  height: 300px;
+  -webkit-border-radius: 12px 12px;
+  -moz-border-radius: 12px / 12px;
+  border-radius: 12px / 12px;
+  border: 3px solid #ff4d2d;
+  margin: 40px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.38);
+  position: relative;
+}
+/* line 49, ../sass/style.scss */
+div.wrap div.demo:hover:after {
+  content: ' ';
+  background: rgba(0, 0, 0, 0.02);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 12px 12px;
+  -moz-border-radius: 12px / 12px;
+  border-radius: 12px / 12px;
+}
+/* line 62, ../sass/style.scss */
+div.wrap span.code {
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  background: url("../img/ricepaper2.png");
+  line-height: 18px;
+  padding: 2px 7px;
+  border: 1px solid #ddd;
+  color: navy;
+  font-family: courier new, courier, serif;
+}
+/* line 71, ../sass/style.scss */
+div.wrap span.code.blocker {
+  display: block;
+}
+/* line 75, ../sass/style.scss */
+div.wrap ul {
+  list-style: square;
+  margin-right: 3em;
+}
+/* line 79, ../sass/style.scss */
+div.wrap div.instructions {
+  -webkit-border-radius: 12px 12px;
+  -moz-border-radius: 12px / 12px;
+  border-radius: 12px / 12px;
+  padding: 20px;
+  background: #fafafa;
+  margin-bottom: 150px;
+}
+
+/* line 86, ../sass/style.scss */
+div.footer {
+  height: 150px;
+  background: url("../img/darky.png");
+  border-top: 2px solid #666;
+  padding: 15px 15px;
+}
+/* line 91, ../sass/style.scss */
+div.footer p {
+  color: #ffffff;
+}
+/* line 93, ../sass/style.scss */
+div.footer p.small {
+  font-size: .7em;
+  width: 25%;
+  float: right;
+  margin-top: 0;
+}
+/* line 100, ../sass/style.scss */
+div.footer a {
+  color: #00C7FF;
+}
+/* line 104, ../sass/style.scss */
+div.footer div.wrappa a.gh {
+  float: left;
+}
+/* line 106, ../sass/style.scss */
+div.footer div.wrappa a.gh button.github {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00c7ff), color-stop(100%, #0097c2));
+  background: -webkit-linear-gradient(top, #00c7ff, #0097c2);
+  background: -moz-linear-gradient(top, #00c7ff, #0097c2);
+  background: -o-linear-gradient(top, #00c7ff, #0097c2);
+  background: linear-gradient(top, #00c7ff, #0097c2);
+  border: 1px solid #006f8f;
+  padding: 15px;
+  color: white;
+  text-shadow: 1px 1px 1px #00485c;
+  font-size: 20px;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+}
