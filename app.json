@@ -1,7 +1,7 @@
 {
-  "name": "Node.js Getting Started",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "name": "baconmouseover",
+  "description": "An awesome sizzling thing.",
+  "repository": "https://github.com/91bananas/baconmouseover",
+  "logo": "https://lh3.googleusercontent.com/-EG7ePwKT5Gs/UTPfjpV7b9I/AAAAAAAABPk/Dzj6Q9lPm5s/s426/3AD0BF65-94C5-4064-A0C2-5168662C2471.PNG",
   "keywords": ["node", "express", "static"]
 }
