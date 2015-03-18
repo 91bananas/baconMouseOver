@@ -2,7 +2,7 @@ bacon.mouseover.js
 ===========
 Great as an easter egg!
 
-View demo [here](http://198.61.194.30/baconator/)
+View demo [here](http://baconmouseover.herokuapp.com/)
 
 
 About
